@@ -84,7 +84,13 @@ export function Navbar() {
           </button>
 
           {/* Desktop nav */}
-          <div style={{ display: "flex", alignItems: "center", gap: "8px" }} className="hidden md:flex">
+          <div
+  style={{
+    display: window.innerWidth >= 768 ? "flex" : "none",
+    alignItems: "center",
+    gap: "8px",
+  }}
+>
             {navLinks.map((link) => (
               <button
                 key={link.href}
@@ -121,6 +127,7 @@ export function Navbar() {
               background: "linear-gradient(135deg, #3B82F6, #8B5CF6)",
               border: "none",
               color: "#ffffff",
+              display: window.innerWidth >= 768 ? "block" : "none",
               fontSize: "14px",
               fontFamily: "'Inter', sans-serif",
               fontWeight: 600,
@@ -137,7 +144,7 @@ export function Navbar() {
               (e.target as HTMLButtonElement).style.opacity = "1";
               (e.target as HTMLButtonElement).style.transform = "translateY(0)";
             }}
-            className="hidden md:block"
+           
           >
             Hire Me
           </button>
@@ -170,12 +177,17 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            style={{
-              background: "rgba(11, 17, 32, 0.98)",
-              backdropFilter: "blur(20px)",
-              borderTop: "1px solid rgba(59, 130, 246, 0.15)",
-              overflow: "hidden",
-            }}
+           style={{
+  position: "absolute",
+  top: "72px",
+  left: 0,
+  right: 0,
+  zIndex: 9999,
+  background: "rgba(11, 17, 32, 0.98)",
+  backdropFilter: "blur(20px)",
+  borderTop: "1px solid rgba(59, 130, 246, 0.15)",
+  overflow: "hidden",
+}}
           >
             <div style={{ padding: "16px 24px 24px" }}>
               {navLinks.map((link) => (
