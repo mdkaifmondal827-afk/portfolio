@@ -165,7 +165,7 @@ export function Hero() {
                 Hire Me <ArrowRight size={16} />
               </button>
               <a
-                href="/Md_Kaif_Mondal_Resume.pdf.pdf"
+                href="/Md_Kaif_Mondal_Resume.pdf."
                 download
                 style={{
                   display: "inline-flex",
