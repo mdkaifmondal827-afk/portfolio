@@ -27,7 +27,7 @@ const skillCategories = [
       { name: "Git", level: 88, icon: "🔀" },
       { name: "GitHub", level: 90, icon: "🐙" },
       { name: "VS Code", level: 95, icon: "💻" },
-      { name: "Figma", level: 75, icon: "🎭" },
+      { name: "Figma", level: 40, icon: "🎭" },
     ],
   },
   {
@@ -38,9 +38,9 @@ const skillCategories = [
     border: "rgba(6,182,212,0.2)",
     title: "Other",
     skills: [
-      { name: "Responsive Design", level: 92, icon: "📱" },
-      { name: "SEO Basics", level: 70, icon: "🔍" },
-      { name: "UI/UX Design", level: 78, icon: "✨" },
+      { name: "Responsive Design", level: 60, icon: "📱" },
+      { name: "SEO Basics", level: 50, icon: "🔍" },
+      { name: "UI/UX Design", level: 40, icon: "✨" },
     ],
   },
 ];

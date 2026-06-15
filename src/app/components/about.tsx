@@ -70,7 +70,7 @@ export function About() {
               color: "#94A3B8", fontSize: "16px", fontFamily: "'Inter', sans-serif",
               lineHeight: 1.8, marginBottom: "40px",
             }}>
-              My goal is to build a successful career as a freelance web developer while continuously improving my skills in React, JavaScript, and modern web technologies. I focus on creating professional websites that help businesses and individuals establish a strong online presence.
+              My goal is to build a successful career as a  web developer while continuously improving my skills in React, JavaScript, and modern web technologies. I focus on creating professional websites that help businesses and individuals establish a strong online presence.
             </p>
 
             {/* Cards */}
@@ -92,7 +92,7 @@ export function About() {
                   icon: CheckCircle2,
                   color: "#06B6D4",
                   title: "Currently",
-                  sub: "Actively learning modern web technologies and open to freelance projects, internships, and junior developer roles.",
+                  sub: "Actively learning modern web technologies and  projects, internships, and junior developer roles.",
                 },
               ].map(({ icon: Icon, color, title, sub }) => (
                 <div key={title} style={{
@@ -174,7 +174,7 @@ export function About() {
                 fontSize: "18px", color: "#ffffff", marginBottom: "16px",
               }}>Professional Summary</h3>
               <p style={{ color: "#94A3B8", fontSize: "14px", fontFamily: "'Inter', sans-serif", lineHeight: 1.75, marginBottom: "20px" }}>
-                Passionate freelance web developer with a strong interest in creating modern, responsive, and user-friendly websites. Skilled in HTML, CSS, JavaScript, React, Git, and UI/UX design principles.
+                Passionate  web developer with a strong interest in creating modern, responsive, and user-friendly websites. Skilled in HTML, CSS, JavaScript, React, Git, and UI/UX design principles.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                 {["React", "JavaScript", "CSS3", "UI/UX",  "Responsive Design"].map(tag => (

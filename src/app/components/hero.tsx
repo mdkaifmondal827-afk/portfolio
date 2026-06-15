@@ -110,7 +110,7 @@ export function Hero() {
                 lineHeight: 1.3,
               }}
             >
-              Frontend Developer & Freelance Web Designer
+              Frontend Developer 
             </motion.h2>
 
             <motion.p
@@ -126,7 +126,7 @@ export function Hero() {
                 maxWidth: "520px",
               }}
             >
-              Passionate Freelance Web Developer specializing in modern, responsive, and user-friendly websites. I help businesses and individuals build a strong online presence through clean design and efficient web solutions.
+              Passionate  Web Developer specializing in modern, responsive, and user-friendly websites. I help businesses and individuals build a strong online presence through clean design and efficient web solutions.
             </motion.p>
 
             <motion.div

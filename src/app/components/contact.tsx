@@ -17,15 +17,15 @@ const handleSubmit = async (e: React.FormEvent) => {
 
   try {
     await emailjs.send(
-      "service_y1pgdgh",
-      "template_yt1woll",
+      "service_rpgfirv",
+      "template_snltwcl",
       {
         name: form.name,
         email: form.email,
         subject: form.subject,
         message: form.message,
       },
-      "S8LwvEMKJlDKiswhD"
+      "6Y7BF0tBqcF4qwo6t"
     );
 
     setSubmitted(true);
@@ -45,7 +45,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 };
 
   const contactInfo = [
-    { icon: Mail, color: "#3B82F6", label: "Email", value: "mdkaifmondal0079@gmail.com" },
+    { icon: Mail, color: "#3B82F6", label: "Email", value: "mdkaifmondal27@gmail.com" },
     { icon: MapPin, color: "#06B6D4", label: "Location", value: "Kolkata, India" },
   ];
 
