@@ -20,7 +20,6 @@ export function Footer() {
     const el = document.querySelector(href);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
-
   return (
     <footer style={{
       borderTop: "1px solid rgba(255,255,255,0.08)",

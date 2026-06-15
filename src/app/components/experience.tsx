@@ -21,7 +21,7 @@ const timelineItems = [
 
 export function Experience() {
   return (
-    <section id="Experience" style={{
+    <section id="experience" style={{
       padding: "100px 0", position: "relative",
       background: "linear-gradient(180deg, transparent, rgba(139,92,246,0.03), transparent)",
     }}>
